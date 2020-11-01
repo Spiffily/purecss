@@ -14,7 +14,7 @@ the following line in <head>:
 @import url('./index.css'); /*Do not change this line.*/
 
 /* Theme */
-@import url('./spiffily.css');
+@import url('./default.css');
 
 /* Default fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Quicksand&family=Ubuntu:wght@500&display=swap');
