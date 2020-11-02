@@ -38,6 +38,7 @@
   text-decoration: underline;
 }
 }
+
 @media (prefers-color-scheme: light) {
   :root{ /*NOTE: Make all dark theme changes here.*/
     --background-color: white;
