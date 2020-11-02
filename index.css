@@ -39,6 +39,9 @@ THEME FILE'S VARIABLES.*/
 ::selection{
   background-color: var(--accent-color);
 }
+/* html {
+  overflow: auto;
+} */
 body{
   background-color: var(--background-color);
   background-image: var(--background-image);
@@ -61,6 +64,15 @@ p, b, i {
   /* padding: 0px 10px;
   margin: 25px 25px; */
   margin:20px;
+}
+img{
+  margin: 20px;
+}
+date{
+  color: lightgrey;
+  font-style: italic;
+  text-align: center;
+  margin: 20px;
 }
 #emoji{
   font-size: 42pt;
@@ -93,6 +105,11 @@ button:active{
   background-color: var(--active-color);
   /* border: var(--border-width) solid var(--focus-border-color); */
 }
+iframe{
+  width: 100%;
+  border:
+
+}
 
 .container{
   display: flex;
@@ -103,7 +120,7 @@ button:active{
   background-color: var(--base-color);
   background-image: var(--base-background-image);
   background-attachment: var(--base-background-image-attachment);
-  margin: 15px 25px;
+  margin: 15px 30px;
   padding: 10px;
   border-radius:var(--border-radius);
   -moz-border-radius:var(--border-radius);
@@ -119,7 +136,6 @@ button:active{
 
   padding: 10px 20px;
 }
-.row > *{margin: 0px 3px;}
 
 .nobox{
   background: none;
@@ -137,6 +153,10 @@ button:active{
   align-items: center;
   text-align: right;
   justify-content: flex-end;
+}
+
+.preview-img {
+  max-width: 20%;
 }
 
 /* Grids */
@@ -177,7 +197,7 @@ button:active{
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  margin: 15px 15px;
+  margin: 5px 20px;
 
   color: var(--toolbar-font-color);
   background-color: var(--toolbar-color);
@@ -189,6 +209,7 @@ button:active{
 }
 .toolbar > *, .toolbar > * > * {
   color: var(--toolbar-font-color);
-  padding: 0px 5px;
-  margin: 3px 5px;
+  font-size: var(--toolbar-font-size);
+  padding: 0px 3px;
+  margin: 10px 5px;
 }
