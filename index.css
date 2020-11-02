@@ -95,6 +95,11 @@ button:active{
 }
 
 .container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
   background-color: var(--base-color);
   background-image: var(--base-background-image);
   background-attachment: var(--base-background-image-attachment);
@@ -107,6 +112,7 @@ button:active{
 
 .row {
   display:flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
